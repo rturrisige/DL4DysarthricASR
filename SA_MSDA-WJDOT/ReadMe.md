@@ -1,4 +1,4 @@
-########################################### READ ME #############################################
+# UNSUPERVISED SPEAKER ADAPTATION
 
 The codes have been tested on Python 3.7.6. In order to run, the following Python modules
 are required:
@@ -10,9 +10,7 @@ are required:
 - POT python package
 
 
-#############
-#   Codes  ##
-#############
+## CODES
 
 - BLSTM_models.py: it contains the BLSTM model for single- and multi-task learning
 - BLSTM_utilities.py: it contains useful function related to data_loading, training, inference and visualization
@@ -31,3 +29,18 @@ are required:
 - command_mapping.py: it contains the map from the command number to the command sentence in AllSpeak dataset.
 - MSDA_WJDOT.py: contains the wjdot algorithm without and with early stopping (based on the sse or the weighted sum of the accuracies)
 - ot_torch.py: contains the optimal transport functions (e.g., objective function of Eq. (8) in the paper)
+
+## CITATION 
+
+Please cite [this paper](https://www.isca-speech.org/archive/interspeech_2022/turrisi22_interspeech.html) when using the data:
+
+```latex
+@inproceedings{turrisi22_interspeech,
+  author={Rosanna Turrisi and Leonardo Badino},
+  title={{Interpretable dysarthric speaker adaptation based on optimal-transport}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={26--30},
+  doi={10.21437/Interspeech.2022-36}
+}
+```

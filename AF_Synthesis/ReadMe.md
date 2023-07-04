@@ -1,21 +1,9 @@
-			Improving generalization of vocal tract feature reconstruction: 
-	from augmented acoustic inversion to articulatory feature reconstruction without articulatory data
-				
-				Rosanna Turrisi, Raffaele Tavarone, Leonardo Badino
+# Improving generalization of vocal tract feature reconstruction: 
+# from augmented acoustic inversion to articulatory feature reconstruction without articulatory data
 
-Link to the article: https://ieeexplore.ieee.org/document/8639537
+# Rosanna Turrisi, Raffaele Tavarone, Leonardo Badino
 
-@INPROCEEDINGS{8639537,
-  author={Turrisi, Rosanna and Tavarone, Raffaele and Badino, Leonardo},
-  booktitle={2018 IEEE Spoken Language Technology Workshop (SLT)}, 
-  title={Improving Generalization of Vocal Tract Feature Reconstruction: From Augmented Acoustic Inversion to Articulatory Feature Reconstruction without Articulatory Data}, 
-  year={2018},
-  volume={},
-  number={},
-  pages={159-166},
-  doi={10.1109/SLT.2018.8639537}}
-
-########################################### READ ME #############################################
+## ReadMe
 
 The codes have been tested on Python 2.7 In order to run, the following Python modules       
 are required:
@@ -56,3 +44,18 @@ Residual Network
 - ResDNN_test.py: evaluates the ResDNN model on the testing set
 
 
+## Citation
+
+Please cite [this paper](https://ieeexplore.ieee.org/document/8639537) when using the data:
+
+```latex
+@INPROCEEDINGS{8639537,
+  author={Turrisi, Rosanna and Tavarone, Raffaele and Badino, Leonardo},
+  booktitle={2018 IEEE Spoken Language Technology Workshop (SLT)}, 
+  title={Improving Generalization of Vocal Tract Feature Reconstruction: From Augmented Acoustic Inversion to Articulatory Feature Reconstruction without Articulatory Data}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={159-166},
+  doi={10.1109/SLT.2018.8639537}}
+```

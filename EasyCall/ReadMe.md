@@ -1,5 +1,5 @@
-					EasyCall Corpus
-Rosanna Turrisi, Arianna Braccia, Marco Emanuele, Simone Giulietti, Luciano Fadiga, Mariachiara Sensi, Leonardo  Badino.
+###	EasyCall Corpus
+# Rosanna Turrisi, Arianna Braccia, Marco Emanuele, Simone Giulietti, Luciano Fadiga, Mariachiara Sensi, Leonardo  Badino.
 
 The EasyCall corpus is  a database of command speech recorded from healthy individuals and dysarthric patients. This dataset has been collected through a collaboration between the Italian Institute of Technology (IIT), the University of Ferrara and the Sant'Anna Hospital of Ferrara, and it  aims at providing a new resource for future developments of ASR-based assistive technologies.
 In particular, it may be exploited to develop a voice-controlled contact application for commercial smartphones, and improve dysarthric patients' ability to communicate with their family and caregivers.
